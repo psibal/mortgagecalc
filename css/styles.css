@@ -13,8 +13,7 @@ body {
 
 table {
     border-collapse: collapse;
-    font-weight: 300; 
-
+    font-weight: 300;
 }
 
 th {
@@ -25,15 +24,31 @@ th {
 td {
     text-align: right;
     padding: 0 .5rem;
-
 }
 
 th,
 td {
-    
+    font-size: 12px;
     border: solid 0px #EEEEEE !important;
     padding: 3px 3px;
 }
+
 .progress {
     margin-bottom: 0 !important;
+}
+
+.panel-heading{
+    font-size: 12px;
+    text-align: center;
+}
+
+.panel-body{
+  padding: 0.5rem;
+  font-size: 12px;
+  text-align: center;
+}
+
+hr {
+    border: solid 1px #222222 !important;
+    margin: 5px 5px 5px 0px;
 }
